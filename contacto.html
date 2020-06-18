@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Contacto | Ideas Interiores</title>
+    <title>Conócenos | Ideas Interiores</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description" />
@@ -20,9 +20,6 @@
     <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-
-    <link href="css/popbox.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 
@@ -40,8 +37,10 @@
 
                     <div class="logo">
                         <a class="logo-wrap" href="index.html">
-                            <img class="logo-img logo-img-main logo_interiores" src="img/D_Gomez_mod.png">
-                            <img class="logo-img logo-img-active logo_interiores_active" src="img/D_Gomez_mod.png">
+                            <img class="logo-img logo-img-main logo_interiores" src="img/D_Gomez.png"
+                                alt="FlameOnePage Logo">
+                            <img class="logo-img logo-img-active logo_interiores_active" src="img/D_Gomez.png"
+                                alt="FlameOnePage Dark Logo">
                         </a>
                         <!--
                         <a class="logo-wrap" href="#body">
@@ -108,7 +107,7 @@
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
                                 -->
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
-                                    href="#contact">Contacto</a></li>
+                                    href="contact.html">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -119,6 +118,7 @@
 
     <!-- Contact -->
     <div id="contact">
+
         <!-- Contact List -->
         <div class="section-seperator">
             <div class="content-lg container">
@@ -131,7 +131,6 @@
                 <div class="row">
                     <!--INI_INFO-->
                     <div class="col-md-6 col-sm-12" style="padding: 0;">
-                        <!--
                         <div class="col-12 margin-t-30 margin-b-20 height_map" id="map"></div>
                         <script>
                             // Initialize and add the map
@@ -146,110 +145,55 @@
                                 var marker = new google.maps.Marker({ position: uluru, map: map });
                             }
                         </script>
-                        -->
                         <!--Load the API from the specified URL
                                     * The async attribute allows the browser to render the page while the API loads
                                     * The key parameter will contain your own API key (which is not needed for this tutorial)
                                     * The callback parameter executes the initMap() function
                                     -->
-                        <!--
+
                         <script async defer
                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiFzJT2i1zEzAeR4m3gWMF2v0DFoaLGrc&callback=initMap"
-                            type="text/javascript"></script>
-                        -->
-
-                        <div class="col-12 margin-b-20 contact_size_map height_map" id="map"></div>
-                        <script>
-                            // Initialize and add the map
-                            function initMap2() {
-                                // The location of Uluru
-                                var uluru = { lat: 40.241070, lng: -3.750618 };
-                                // The map, centered at Uluru
-
-                                var map = new google.maps.Map(
-                                    document.getElementById('map'), { zoom: 15, center: uluru });
-                                // The marker, positioned at Uluru
-                                var marker = new google.maps.Marker({ position: uluru, map: map });
-                            }
-                        </script>
-                        <!--Load the API from the specified URL
-                                    * The async attribute allows the browser to render the page while the API loads
-                                    * The key parameter will contain your own API key (which is not needed for this tutorial)
-                                    * The callback parameter executes the initMap() function
-                                    -->
-
-                        <script async defer
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiFzJT2i1zEzAeR4m3gWMF2v0DFoaLGrc&callback=initMap2"
                             type="text/javascript"></script>
 
                         <!--INI_INFO_TEXT-->
 
                         <div class="masonry-grid row">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-12 col-md-1 m_auto pb_40_i pt_25_i">
-                                <div class="col-sm-4 display_none_all jcc_ipad">
-                                    <h4>DIRECCIÓN</h4>
-                                    <p class="font_text"> 
-                                        <a target="_blank"
-                                            href="https://www.google.com/maps/place/Wood+Design+Ideas+S.L.U/@40.2410364,-3.7528142,17z/data=!3m1!4b1!4m5!3m4!1s0xd41f55104f167a1:0xf09256f77e589b64!8m2!3d40.2410364!4d-3.7506255">
-                                            Ctra Parla-Pinto km 1.5 Nave 4, 28983 Parla (Madrid)
-                                        </a>
-                                    </p>
-                                </div>
-                                <div class="col-sm-4 display_none_all jcc_ipad">
-                                    <h4>TELÉFONO</h4>
-                                    <p class="font_text">
-                                        <a href="tel:+34916996093">
-                                            (+34) 916 996 093
-                                        </a>
-                                    </p>
-                                </div>
-                                <div class="col-sm-4 display_none_all jcc_ipad">
-                                    <h4>EMAIL</h4>
-                                    <p class="font_text">
-                                        <a href="mailto:info@ideas-interiores.com">
-                                            info@ideas-interiores.com
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-4 col-md-4 sm-margin-b-30 display_none_ipad">
-                                <div class="margin-b-60  ml-5 mt-2 display_full jcc_ipad" style="display: flex;">
-                                    <div class="col-4" style="padding-top: .2vw;">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+                                <div class="margin-b-60 row ml-5 mt-2 display_full" style="display: flex;">
+                                    <div class="col-4">
                                         <i class="col-12 fas fa-globe"></i>
                                     </div>
                                     <div class="col-8 margin-l-10">
                                         <h4>DIRECCIÓN</h4>
-                                        <p class="font_text"> 
-                                            <a target="_blank"
+                                        <p class="font_text"> <a target="_blank"
                                                 href="https://www.google.com/maps/place/Wood+Design+Ideas+S.L.U/@40.2410364,-3.7528142,17z/data=!3m1!4b1!4m5!3m4!1s0xd41f55104f167a1:0xf09256f77e589b64!8m2!3d40.2410364!4d-3.7506255">
-                                                Ctra Parla-Pinto km 1.5 Nave 4, 28983 Parla (Madrid)
-                                            </a>
-                                        </p>
+                                                Ctra Parla-Pinto km 1.5 Nave 4, 28983 Parla</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-4 col-md-4 display_none_ipad">
-                                <div class="margin-b-60 ml-5 display_full_b jcc_ipad" style="display: flex;">
-                                    <div class="col-4" style="padding-top: .2vw;">
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                                <div class="margin-b-60 row ml-5 display_full_b" style="display: flex;">
+                                    <div class="col-4">
                                         <i class="col-1 fas fa-mobile"></i>
                                     </div>
                                     <div class="col-8 margin-l-10">
                                         <h4>TELÉFONO</h4>
                                         <p class="font_text" style="text-align: center !important;"><a
-                                                href="tel:+34916996093">(+34) 916 996 093</a></p>
+                                                href="tel:+13174562564">(+34) 916 996 093</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-4 col-md-4 pos_ipad display_none_ipad">
-                                <div class="margin-b-60 row ml-5 display_full_b jcc_ipad" style="display: flex;">
-                                    <div class="col-4" style="padding-top: .2vw;">
-                                        <i class="col-12 fas fa-envelope-open-text"></i>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 pos_ipad">
+                                <div class="margin-b-60 row ml-5 display_full_b" style="display: flex;">
+                                    <div class="col-4" style="margin-top: 1vw;">
+                                        <i class="col-12 fas fa-envelope-open-text" ></i>
                                     </div>
                                     <div class="col-8 margin-l-10">
                                         <h4>EMAIL</h4>
-                                        <p class="font_text"><a
-                                                href="mailto:info@ideas-interiores.com">info@ideas-interiores.com</a>
-                                        </p>
+                                        <p class="font_text" style="text-align: center !important;"><a
+                                                href="info@ideas-interiores.com"
+                                                target="_blank">info@ideas-interiores.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -260,10 +204,7 @@
                     <!--FIN_INFO-->
                     <!--INI_FORM-->
                     <div class="col-md-6 col-sm-12">
-                        <div class="col-sm-11 display_none_all" style="text-align: center;padding-top: 2.5vw; padding-bottom: 2.5vw;">
-                            <h2>RELLENA EL FORMULARIO</h2>
-                        </div>
-                        <div class="col-12 col-sm-11" style="padding-left: 3vw;">
+                        <div class="col-12">
                             <p>
                                 Gracias por su interés en nosotros
                             </p>
@@ -273,14 +214,14 @@
                                 este formulario de contacto.
                             </p>
                         </div>
-                        <div class="col-12 col-sm-12">
+                        <div class="col-12">
                             <!--INI FORMULARIO-->
                             <form method="post" enctype="multipart/form-data" id="mi-formulario">
                                 <!-- Campo #nombre -->
                                 <div class="form-group form-row">
-                                    <div class="col-12 col-md-10 col-sm-12" style="margin: 0 auto;">
-                                        <label for="name_form" class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Nombre*</label>
+                                    <div class="col-12 col-md-10" style="margin: 0 auto;">
+                                        <label for="name_form"
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Nombre*</label>
                                         <input type="text" class="form-control" name="name_form" id="name_form"
                                             data-parsley-required
                                             data-parsley-required-message="Este campo no puede estar vacio.">
@@ -289,9 +230,9 @@
 
                                 <!-- Campo #email -->
                                 <div class="form-group form-row">
-                                    <div class="col-12 col-md-10 col-sm-12" style="margin: 0 auto;">
-                                        <label for="email_form" class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Correo
+                                    <div class="col-12 col-md-10" style="margin: 0 auto;">
+                                        <label for="email_form"
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Correo
                                             electrónico*</label>
                                         <input type="email" class="form-control" name="email_form" id="email_form"
                                             data-parsley-required data-parsley-type="email"
@@ -303,24 +244,22 @@
                                 <!-- Campo #celular -->
                                 <div class="form-group form-row" style="justify-content: center;">
                                     <div class="col-4 col-md-4">
-                                        <label for="phone_form" class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Teléfono</label>
+                                        <label for="phone_form"
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Teléfono</label>
                                         <input type="number" class="form-control" name="v" id="phone_form"
                                             data-parsley-length="[9, 11]"
                                             data-parsley-length-message="El número telefónico debe tener entre 9 dígitos.">
                                     </div>
                                     <div class="col-3 col-md-3">
                                         <label for="localidad_form"
-                                            class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Localidad*</label>
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Localidad*</label>
                                         <input type="text" class="form-control" name="localidad_form"
                                             id="localidad_form" data-parsley-required
                                             data-parsley-required-message="Este campo no puede estar vacio.">
                                     </div>
                                     <div class="col-3 col-md-3">
                                         <label for="provincia_form"
-                                            class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Provincia*</label>
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Provincia*</label>
                                         <input type="text" class="form-control" name="provincia_form"
                                             id="provincia_form" data-parsley-required
                                             data-parsley-required-message="Este campo no puede estar vacio.">
@@ -330,9 +269,9 @@
                                 <!-- Campo #servicios -->
                                 <div class="form-group form-row" style="justify-content: center;">
 
-                                    <div class="col-4 col-md-4 pt_25_i">
-                                        <label for="services_form" class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Servicio</label>
+                                    <div class="col-4 col-md-4">
+                                        <label for="services_form"
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Servicio</label>
                                         <select name="services_form" class="col-12" id="services_form">
                                             <option value="Vestidores">Vestidores</option>
                                             <option value="Armarios">Armarios</option>
@@ -346,23 +285,18 @@
                                         </select>
                                     </div>
                                     <div class="col-6 col-md-6">
-                                        <label for="file_form" class="col-form-label col-12 col-md-12 font_text pl-0"
-                                            style="padding-left: 0;">Archivo
+                                        <label for="file_form"
+                                            class="col-form-label col-12 col-md-12 font_text pl-0">Archivo
                                             adjunto</label>
-                                        <input type="file" name="files[]" id="file_form" multiple onchange="update()"
+                                        <input type="file" name="files[]" id="file_form" multiple
                                             style="line-height: normal; width: inherit;" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,
                                                 text/plain, application/pdf, image/*">
 
-                                        <script
-                                            src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
                                         <script>
-
-                                            const url_php = 'php/mi_php.php';
+                                            const url = 'php/mi_php.php';
                                             const form = document.querySelector('form');
 
                                             function update() {
-
                                                 const files = document.querySelector('[type=file]').files;
                                                 const formData = new FormData();
 
@@ -371,28 +305,25 @@
 
                                                     formData.append('files[]', file);
                                                 }
-                                                console.log('Intento subida')
 
-                                                $.ajax({
-                                                    url: url_php,
-                                                    method: "POST",
-                                                    data: formData,
-                                                    contentType: false,
-                                                    cache: false,
-                                                    processData: false,
+                                                fetch(url, {
+                                                    method: 'POST',
+                                                    body: formData
+                                                }).then(response => {
+                                                    console.log(response);
                                                 });
                                             }
 
-                                            //setInterval(update, 500);
+                                            setInterval(update, 500);
                                         </script>
                                     </div>
                                 </div>
 
                                 <!-- Campo #mensaje -->
                                 <div class="form-group form-row">
-                                    <div class="col-12 col-md-10 col-sm-12" style="margin: 0 auto;">
-                                        <label for="mensage_form" class="col-form-label col-12 col-md-5 font_text pl-0"
-                                            style="padding-left: 0;">Mensaje*</label>
+                                    <div class="col-12 col-md-10" style="margin: 0 auto;">
+                                        <label for="mensage_form"
+                                            class="col-form-label col-12 col-md-5 font_text pl-0">Mensaje*</label>
                                         <textarea name="mensage_form" style="height: auto !important;" id="mensage_form"
                                             rows="5" class="form-control" data-parsley-required
                                             data-parsley-required-message="Este campo no puede estar vacio."></textarea>
@@ -402,13 +333,13 @@
                                 <!-- Ckechbox #privacidad -->
                                 <div class="form-group form-row" style="padding-left: 3.5vw;">
                                     <div class="col-12 col-md-11 row" style="display: flex; margin: 1vw auto 0 0;">
-                                        <input type="checkbox" id="cbox2" class="form-control col-1 checkbox_ipad"
+                                        <input type="checkbox" id="cbox2" class="form-control col-1"
                                             style="padding: 0; max-height: .7vw; width: auto;" name="privacidad"
                                             id="privacidad" data-parsley-required
                                             data-parsley-required-message="Debe aceptar la politica de privacidad">
-                                        <label for="cbox2" class=" col-11"
-                                            style="padding: 0; margin-left: 1vw; font-weight: 400;">Consiento el
-                                            tratamiento de mis datos. WOOD DESIGN IDEAS S.L tratará sus datos con la
+                                        <label for="cbox2" class="font_text col-11"
+                                            style="padding: 0; margin-left: 1vw;">Consiento el
+                                            tratamiento de mis datos. WOOD DESIGN IDEAS SL tratará sus datos con la
                                             finalidad de contestar a sus consultas, dudas o reclamaciones. Puede ejercer
                                             sus
                                             derechos de acceso, rectificación, supresión, portabilidad, limitación y
@@ -417,16 +348,6 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div data-popbox-id="mypopbox1" class="popbox">
-                                      <div class="popbox_container">
-                                            <p style="text-align: center;">Gracias por confiar en nosotros.</p>
-                                        <p style="text-align: center;">Nos pondremos en contacto con Ud en la mayor
-                                            brevedad posible.</p>
-                                            <button data-popbox-close="mypopbox1"
-                                            style="display: flex; margin-left: auto; margin-right: auto; border: 0; background-color: transparent; font-weight: 600;">Cerrar</button>
-                                         
-                                    </div>
-                                      </div>
 
                                 <!-- Campo Enviar -->
                                 <div class="form-group form-row" style="padding-top: 1.5vw;">
@@ -435,8 +356,6 @@
                                             class="btn btn-primary btn-block btn-lg"
                                             onclick="sendEmail()">Enviar</button>
                                         <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-
                                         <script type="text/javascript">
 
                                             function validacion() {
@@ -465,40 +384,28 @@
                                                         "<b>PROVINCIA: </b>" + document.getElementById('provincia_form').value + "." + "<br>" +
                                                         "<b>SERVICIO: </b>" + strService + "." + "<br>" +
                                                         "<b>Mensaje: </b>" + document.getElementById('mensage_form').value + "." + "<br>";
+                                                    console.log(fullPath);
                                                     if (fullPath) {
                                                         var startIndex = (fullPath.indexOf('\\') >= 0 ? fullPath.lastIndexOf('\\') : fullPath.lastIndexOf('/'));
                                                         var filename = fullPath.substring(startIndex);
                                                         if (filename.indexOf('\\') === 0 || filename.indexOf('/') === 0) {
                                                             filename = filename.substring(1);
                                                         }
-                                                        fullPath = 'http://ideas-exteriores.com/php/uploads/' + filename;
                                                         console.log(filename);
-                                                        console.log(fullPath);
                                                         Email.send({
+
                                                             SecureToken: "2ba57bf3-0645-4814-8cae-25b56f3a86e3",
                                                             To: 'gomezs.jandres@gmail.com',
                                                             From: "gomezs.jandres@gmail.com",
                                                             Subject: "INFO WEBSITE",
-                                                            Body: body_comp + '</br>VER IMPORTADOS',
-                                                            /*
-                                                            Attachments: [
-                                                                {
-                                                                    name: '8888888888888.png',
-                                                                    path: 'https://ideas-exteriores.com/upload/8888888888888.png'
-                                                                }],
-                                                            */
+                                                            Body: body_comp,
+                                                            Attachments: [{
+                                                                name: filename,
+                                                                path: fullPath
+                                                            }],
                                                         })
                                                             .then(function (message) {
-                                                                var popbox = new Popbox({
-                                                                    blur: true,
-                                                                });
-
-                                                                //open a popbox
-                                                                popbox.open('mypopbox1');
-                                                                //close a popbox
-                                                                popbox.close('mypopbox1');
-                                                                //close all popboxes
-                                                                popbox.clear();
+                                                                alert("Mensaje, enviado. Nos pondremos en contacto con ud en la mayor prevedad posible.")
                                                             });
                                                     } else {
                                                         Email.send({
@@ -510,16 +417,7 @@
                                                             Body: body_comp,
                                                         })
                                                             .then(function (message) {
-                                                                var popbox = new Popbox({
-                                                                    blur: true,
-                                                                });
-
-                                                                //open a popbox
-                                                                popbox.open('mypopbox1');
-                                                                //close a popbox
-                                                                popbox.close('mypopbox1');
-                                                                //close all popboxes
-                                                                popbox.clear();
+                                                                alert("Mensaje, enviado. Nos pondremos en contacto con ud en la mayor prevedad posible.")
                                                             });
                                                     }
                                                 }
@@ -527,7 +425,6 @@
 
                                             setInterval(validacion, 500);
                                         </script>
-
                                     </div>
                                 </div>
                             </form>
@@ -544,16 +441,20 @@
 
     </div>
     <!-- End Contact -->
-
-
+    <!-- End About -->
+    <!--========== SLIDER ==========-->
     <!-- INI FOOTER-->
     <footer>
-        <div class="col-md-12 footer_info">
-            <div class="row col-lg-10 col-md-12 col-sm-12 footer_info_ext">
-                <div class="col-lg-4 col-md-3 col-sm-3">
-                    <div class="col-md-12 footer_info_mapsite">
-                        <h4>Mapa del sitio:</h4>
-                        <ul>
+        <div class="col-md-12"
+            style="display:flex; margin-top: 2.5vw; justify-content: center; background-color: #202020;">
+            <div class="row col-md-10"
+                style="display: flex; padding-top: 2.5vw; margin-left: auto; margin-right: auto;">
+                <div class="col-md-4">
+                    <div class="col-md-12" style="padding: 0; margin-top:.5vw; justify-content: left; display: grid;">
+                        <h4 style="color: #6495ED;">
+                            Mapa del sitio:
+                        </h4>
+                        <ul style="list-style-type:none; padding-left: 1vw;">
                             <li><a class="footer_contact" href="index.html">Home</a></li>
                             <li><a class="footer_contact" href="index.html">Conócenos</a></li>
                             <li><a class="footer_contact" href="index.html">Nuestros Servicios</a></li>
@@ -563,14 +464,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-md-4">
 
-                    <div class="col-md-12 footer_info_mapsite">
-                        <h4>Contacto:</h4>
-                        <div class="col-12 margin-b-20 footer_size_map" id="map2"></div>
+                    <div class="col-md-12" style="padding: 0; margin-top:.5vw; justify-content: center; display: grid;">
+                        <h4 style="color: #6495ED;">
+                            Contacto:
+                        </h4>
+                        <div class="col-12 margin-b-20" style="width: 25vw; height: 15vw;" id="map2"></div>
                         <script>
                             // Initialize and add the map
-                            function initMap2() {
+                            function initMap() {
                                 // The location of Uluru
                                 var uluru = { lat: 40.241070, lng: -3.750618 };
                                 // The map, centered at Uluru
@@ -588,23 +491,25 @@
                                     -->
 
                         <script async defer
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiFzJT2i1zEzAeR4m3gWMF2v0DFoaLGrc&callback=initMap2"
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiFzJT2i1zEzAeR4m3gWMF2v0DFoaLGrc&callback=initMap"
                             type="text/javascript"></script>
-                        <ul>
+                        <ul style="list-style-type:none; padding-left: 1vw;">
                             <li><a class="footer_contact" target="_blank"
                                     href="https://www.google.com/maps/place/Wood+Design+Ideas+S.L.U/@40.2410364,-3.7528142,17z/data=!3m1!4b1!4m5!3m4!1s0xd41f55104f167a1:0xf09256f77e589b64!8m2!3d40.2410364!4d-3.7506255">
                                     Ctra Parla-Pinto km 1.5 Nave 4, 28983 Parla (Madrid)</a></li>
                             <li style="color:#c3c3c3;"><b>Email:</b> &nbsp; <a class="footer_contact"
-                                    href="mailto:info@ideas-interiores.com">info@ideas-interiores.com</a></li>
+                                    href="info@ideas-interiores.com" target="_blank">info@ideas-interiores.com</a></li>
                             <li style="color:#c3c3c3;"><b>Tlf:</b> &nbsp; <a class="footer_contact"
                                     href="tel:+34916996093">(+34) 916 996 093</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-3 col-sm-3">
-                    <div class="col-md-12 footer_info_mapsite">
-                        <h4>Nuestros servicios:</h4>
-                        <ul>
+                <div class="col-md-4">
+                    <div class="col-md-12" style="padding: 0; margin-top:.5vw; justify-content: right; display: grid;">
+                        <h4 style="color: #6495ED;">
+                            Nuestros servicios:
+                        </h4>
+                        <ul style="list-style-type:none; padding-left: 1vw;">
                             <li><a class="footer_contact" href="services.html#vestidores">Vestidores</a></li>
                             <li><a class="footer_contact" href="services.html#cocinas">Cocinas</a></li>
                             <li><a class="footer_contact" href="services.html#bath">Muebles de baño</a></li>
@@ -619,51 +524,46 @@
             </div>
 
         </div>
-        <div class="col-md-12 footer_beSocial">
-            <div class="row col-lg-10 col-md-12 col-sm-12 footer_beSocial_ext">
-                <div class="col-md-4 col-sm-4 footer_beSocial_int">
-                    <h4>
+        <div class="col-md-12"
+            style="display:flex; padding-top: 2.5vw; justify-content: center; background-color: #202020;">
+            <div class="row col-md-10" style="display: flex; margin-left: auto; margin-right: auto;">
+                <div class="col-md-4" style="justify-content: center; display: grid;">
+                    <h4 style="color: #6495ED;">
                         Be social:
                     </h4>
-                    <ul>
-                        <li class="li_footer">
-                            <i class="fab fa-facebook"></i>
-                        </li>
-                        <li class="li_footer">
-                            <i class="fab fa-twitter"></i>
-                        </li>
-                        <li class="li_footer">
-                            <i class="fab fa-instagram"></i>
-                        </li>
+                    <ul style="display:inline-flex; list-style-type:none;">
+                        <li style="padding: 0vw .5vw;" class="li_footer"><i class="fab fa-facebook"
+                                style="font-size: 30px;"></i></li>
+                        <li style="padding: 0vw .5vw;" class="li_footer"><i class="fab fa-twitter"
+                                style="font-size: 30px;"></i></li>
+                        <li style="padding: 0vw .5vw;" class="li_footer"><i class="fab fa-instagram"
+                                style="font-size: 30px;"></i></li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-sm-4 footer_container_exti">
-                    <div class="logo footer_container_inti display_none_all">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="logo">
                         <a class="logo-wrap" href="#body">
-                            <img class="logo-img logo-img-main footer_logo" src="img/D_Gomez_mod.png">
+                            <img class="logo-img logo-img-main" style="width: auto !important; height: 3vw !important;"
+                                src="img/D_Gomez.png" alt="FlameOnePage Logo">
                         </a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-4 footer_container_exti">
-                    <div class="logo display_none_ipad">
+                    <div class="logo" style="margin-top: .5vw;">
                         <a class="logo-wrap" href="#body">
-                            <img class="logo-img logo-img-main footer_logo" src="img/D_Gomez_mod.png">
-                        </a>
-                    </div>
-                    <div class="logo mt0_i footer_container_inti" style="margin-top: .5vw;">
-                        <a class="logo-wrap" href="#body">
-                            <img class="logo-img logo-img-main footer_logo" src="img/wdi_900.png">
+                            <img class="logo-img logo-img-main" style="width: auto !important; height: 3vw !important;"
+                                src="img/D_Gomez.png" alt="FlameOnePage Logo">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 footer_copy">
-            <div class="row col-md-10 footer_copy_ext">
-                <div class="col-md-12 footer_copy_int">
+        <div class="col-md-12"
+            style="display:flex; padding-top: 2.5vw; padding-bottom: 2.5vw; justify-content: center; background-color: #202020;">
+            <div class="row col-md-10" style="display: flex; margin-left: auto; margin-right: auto;">
+                <div class="col-md-12" style="text-align: center;  color: #c3c3c3;">
                     Ideas Interiores - Wood Design Ideas
                     <br>
-                    &copy;&nbsp;2020 - Todos los derechos reservados
+                    &copy;2020 - Todos los derechos reservados
                 </div>
             </div>
         </div>
@@ -674,9 +574,6 @@
     <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
     <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-
-    <script src="js/popbox.js" type="text/javascript"></script>
-
     <!-- CORE PLUGINS -->
     <script src="vendor/jquery.min.js" type="text/javascript"></script>
     <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
@@ -700,13 +597,6 @@
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         -->
     <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
-    <!-- Carga de "parsley.js" | Crea la validación de formularios-->
-    <script src="js/parsley.min.js"></script>
-    <script src="js/parsley.es.js"></script>
-
-    <!-- Archivo para configurar e iniciar las funciones de los scripts -->
-    <script src="js/mis-scripts.js"></script>
 
 </body>
 <!-- END BODY -->
