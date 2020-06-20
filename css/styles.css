@@ -136,6 +136,13 @@ h2{
   background-color: #000;
 }
 
+.arrow_left, .arrow_right{
+  display: none !important;
+}
+
+
+
+
 .w_100 {
   width: 100%;
 }
@@ -166,6 +173,10 @@ h2{
 }
 
 .moretext_suelos_1, .moretext_suelos_2, .moretext_suelos_3, .moretext_suelos_4{
+  display: none;
+}
+
+.moretext_armarios_1, .moretext_armarios_2{
   display: none;
 }
 
